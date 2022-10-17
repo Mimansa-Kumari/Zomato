@@ -1,0 +1,52 @@
+
+.container1{background-color: red; width: 100%; height: 70px; display: flex; justify-content: space-between; flex-wrap: wrap;}
+#logo{font-weight: 600; text-align: center; font-size: 30px; border-radius: 100px; background-color:rgb(200, 16, 53);
+     width: 38px; height: 35px; margin:12px;margin-left: 20px; padding: 7px;color: white;}
+#heading{  font-size: 45px; color: white; margin-top: 10px;}
+#register{ font-size: 19px;}
+.container1 a {text-decoration: none;color: white; font-weight: 500;}
+
+.container2{  width: 100%; height: 65px; background-color: black; color: white; padding-top: 1px; position: relative;}
+.container2 a {text-decoration: none;}
+.container2 ul{display: flex; margin-top: 20px;}
+.container2 ul li a{margin-left: 30px; font-size: 18px; color: white;}
+#follow{ font-size: 19px; font-weight: 500; position: absolute; right: 0; top: 0; margin-right: 90px; color: white; text-decoration: none;}
+#menu1 { width: 30px; height: 4px; background-color: white; position: absolute; right: 0; top:10px; margin-right: 20px; margin-top: 8px;}
+#menu2 { width: 30px; height: 4px; background-color: white; position: absolute; right: 0; top:20px; margin-right: 20px;margin-top: 8px;}
+#menu3 { width: 30px; height: 4px; background-color: white; position: absolute; right: 0; top:30px; margin-right: 20px;margin-top: 8px;}
+
+.container3 {position: relative; background-image: url("z1.avif");background-repeat: no-repeat; background-size:cover; width: 100%; height: 430px;}
+.slogan{text-align: center; padding-top: 10%; color: white; font-size: 40px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.box{position: absolute; left: 25%; width: 50%; top: 53%; height: 13%; background-color: white; border-radius: 5px;}
+#icon1{display: block; position: fixed; margin-top:-100px;}
+#icon2{display: block; position: fixed; margin-top:-50px;}
+#icon3{display: block; position: fixed; margin-top: 0px;}
+#icon4{display: block; position: fixed; margin-top: 50px;}
+
+.container4{position: relative; height: 500px;width: 100%;}
+.i1{position: absolute;left: 180px;border: 1px solid transparent; top: 50px; border-radius: 10px; width: 550px; height: 280px;background-color: white;}
+.i2{position: absolute; right:180px; border: 1px solid transparent;top: 50px; border-radius: 10px; width: 550px; height: 280px;background-color: white;}
+.i1 img, .i2 img{border-radius: 10px;}
+.p1{ letter-spacing: 1px; border: 1px solid transparent; position: absolute;left: 180px;top: 310px; border-radius: 10px; width: 550px; height: 130px;background-color: whitesmoke;}
+.p2{ letter-spacing: 1px; border: 1px solid transparent;position: absolute;right: 180px; top: 310px; border-radius: 10px; width: 550px; height: 130px;background-color: whitesmoke;}
+
+.container5{ position: relative; width: 90%; height: 600px; background-color:rgb(246, 245, 245); margin-left: 80px;}
+#get{font-size: 40px;font-weight: 500; margin-left: 620px; padding-top: 100px;}
+#img{position: absolute; left:380px;border-bottom: 2px solid grey;}
+#form{ position: absolute;left: 620px; top: 200px;}
+#form p{font-size:22px; letter-spacing: 1px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+input[type='radio']{ width: 15px; height: 15px; filter: grayscale(3);}
+#in1,#in2{color: black; font-size: 18px;}
+#in3{color: black; padding: 10px; background-color: white; font-size: 15px; border-radius: 5px; border: 3px solid black;}
+#in4{color: white; padding: 10px; background-color: red; font-size: 15px; border-radius: 5px; border: 3px solid black;}
+.container6{margin: 30px 70px 0px 80px; height:70px; background-color: whitesmoke; text-align: center;}
+
+
+
+
+/* ----------------------------------------------------------media------------------------------------------------------- */
+
+@media(max-width:1178)
+{.slogan{margin-top: 22%; } .box{left: 25%; width: 70%; top:45%; height: 13%; }}
+   
+
